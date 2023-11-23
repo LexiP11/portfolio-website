@@ -4,7 +4,6 @@ button.navbar-toggler{
   top: 8px;
 }
 
-
 div#parallax{
   background-image: 
   linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.7)),           
@@ -45,7 +44,8 @@ body{
 
 body, html, nav {
   max-width:100%;
-  overflow-x: hidden;
+  width: 100vw;
+  /*overflow-x: hidden;*/
 }
 
 h2 {
@@ -83,31 +83,6 @@ h2 {
   background-color: #522e92;
 }
 
-.carousel {
-  margin: 0 auto;
-}
-
-.carousel-item img {
-  object-fit: cover;
-  height: 50vh;
-  overflow: hidden;
-}
-
-.carousel-caption {
-  text-shadow: 3px 3px 2px black;
-  z-index: 1;
-}
-
-.carousel-item:after {
-  content:"";
-  position:absolute;
-  top:0;
-  bottom:0;
-  left:0;
-  right:0;
-  background:rgba(0,0,0,.3);
-}
-
 #projects-section, #other-section{
   margin-top: 25px;
   margin-bottom: 50px;
@@ -127,7 +102,15 @@ h2 {
 
 .btn{
   color: #a4b3b6;
-  text-shadow: 3px 3px 2px black;
+  text-shadow: 1px 1px 2px black;
+}
+
+#projects-section .btn, #other-section .btn {
+  color: white;
+}
+
+#projects-section .btn:hover, #other-section .btn:hover {
+  color: black;
 }
 
 #footer-section{
@@ -139,15 +122,20 @@ h2 {
   color: black;
 }
 
-.carousel-caption a {
-  color: white;
-  text-decoration: none;
-}
-
 #other-section a, #footer-section a {
   color: white;
 }
 
 #overview-section {
   margin-bottom: 50px;
+}
+
+.row {
+  margin:0px;
+}
+
+@media only screen and (max-width: 600px) {
+   div#parallax {
+       background-attachment: scroll;
+   }
 }
