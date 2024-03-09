@@ -107,10 +107,20 @@ h2 {
 
 #projects-section .btn, #other-section .btn {
   color: white;
+  border: 1px solid black;
 }
 
 #projects-section .btn:hover, #other-section .btn:hover {
   color: black;
+}
+
+.card {
+  transition: .5s ease;
+  border: 3px groove black;
+}
+
+.card:hover{
+  transform: translateY(-10px);
 }
 
 #footer-section{
