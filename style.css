@@ -19,6 +19,14 @@ div#parallax{
   font-family: 'Lobster Two', cursive;
 }
 
+#parallax img {
+   transition: .5s ease;
+}
+
+#parallax img:hover {
+  transform: translateY(-15px);
+}
+
  img.headshot{
   border: 5px ridge #A4B3B6;
   border-radius: 50%;
