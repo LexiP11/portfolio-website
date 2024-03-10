@@ -95,7 +95,7 @@ h2 {
 }
 
 .skills-images:hover{
-  transform: scale(1.05);
+  transform: scale(1.07) translateY(-10px);
 }
 
 #projects-section, #other-section{
