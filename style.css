@@ -108,14 +108,6 @@ h2 {
   background-color: #522e92;
 }
 
-.bi {
-  transition: .5s ease;
-}
-
-.bi:hover{
-  transform: translateY(-10px);
-}
-
 .btn{
   color: #a4b3b6;
   text-shadow: 1px 1px 2px black;
