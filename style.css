@@ -152,6 +152,7 @@ h2 {
 
 .bi:hover{
   color: black;
+  transform: scale(1.5)
 }
 
 #other-section a, #footer-section a {
