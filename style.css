@@ -152,6 +152,11 @@ h2 {
 
 .bi:hover{
   color: black;
+  transform: scale(1.5);
+}
+
+.bi-star-fill{
+  transform: none;
 }
 
 #other-section a, #footer-section a {
